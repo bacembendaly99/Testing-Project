@@ -27,7 +27,7 @@ Karma handles the process of creating HTML files, opening browsers and running t
 Testing with Jasmine is done by running all the **spec files** of the project( generated automatically with the creation of all components and services including the app component)
 
 
-Here we deleted all spec file except for the <a href='https://github.com/bacembendaly99/octopus-predictions-frontend/blob/dev/src/app/components/team/team.component.spec.ts'>team.component.spec.ts</a> .
+Here we deleted all spec file except for the <a href='https://github.com/bacembendaly99/octopus-predictions-frontend/blob/dev/src/app/components/team/team.component.spec.ts'>team.component.spec.ts</a> and <a href='https://github.com/bacembendaly99/octopus-predictions-frontend/blob/dev/src/app/components/team/team.component.spec.ts'>football.service.spec.ts</a> .
 
 <br>
 initialisation of the TestBed:
@@ -71,3 +71,17 @@ If everything is going as planned the Karma interface should give this result :
 ![img_8.png](img_8.png)
 
 
+Now we will pass to the football service testing. The Service Contains this function:
+
+![img_9.png](img_9.png)
+
+
+Normally this logic should be in the backend,but I left it here for the testing project. 
+The function gets the game entity with the goals array and the home team entity.
+<br><br>
+
+![img_10.png](img_10.png)
+
+
+The inputs of the function are mocked as we are only concerned with the function's convenience.
+The interaction of the function with the API is dealt with in the <a href="https://github.com/bacembendaly99/Testing-Project/tree/main/Integration-Testing%20%E2%9A%92">**_Integration Testing_**</a>
