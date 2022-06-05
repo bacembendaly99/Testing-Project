@@ -85,3 +85,4 @@ The function gets the game entity with the goals array and the home team entity.
 
 The inputs of the function are mocked as we are only concerned with the function's convenience.
 The interaction of the function with the API is dealt with in the <a href="https://github.com/bacembendaly99/Testing-Project/tree/main/Integration-Testing%20%E2%9A%92">**_Integration Testing_**</a>
+
