@@ -1,3 +1,7 @@
+Code Source: 
+- <a href='https://github.com/bacembendaly99/octopus-predictions-frontend/blob/dev/e2e/app.e2e-spec.ts'>app.e2e-spec.ts</a> 
+
+
 **End-to-end testing (E2E)** of Angular applications is performed using the Protractor testing framework, which is created by the Angular team themselves. Protractor can perform end to end tests on Angular applications that are running in a real browser by interacting with it, similar to that of an end-user.
 
 
